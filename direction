@@ -22,7 +22,7 @@ def provide_directions(origin, destination, mode):
         'origin': origin,
         'destination': destination,
         'mode': mode,
-        'key': 'AIzaSyArN0qwN0ZQbuDSU5IbWTb0ZhUOrABfVjc',  
+        'key': 'type_your_API_key_here',  
     }
     directions_url = "https://maps.googleapis.com/maps/api/directions/json"
     direction_response = httpx.get(directions_url, params=direction_params)
